@@ -42,7 +42,9 @@ class SiteController extends Controller
     public function test()
     {
         try {
-            
+            var_dump(Wechat::getAccessToken());
+            var_dump(Wechat::getJsapiTicket());
+            print_r(Wechat::getSignPackage('https://url.cn'));
         } catch (WechatException $e) {
             var_dump($e->getMessage());
         } catch (\Exception $e) {
