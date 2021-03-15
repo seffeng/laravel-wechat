@@ -7,7 +7,7 @@ namespace Seffeng\LaravelWechat\Handlers;
 
 use Illuminate\Support\Facades\Cache;
 
-class CacheHandler
+class CacheHandler implements \Seffeng\Wechat\Contracts\Cache
 {
     /**
      *
