@@ -34,6 +34,28 @@ return [
              * 缓存处理类，提供 get($key) 和 set($key, $value, $ttl) 方法
              */
             'cacheHandler' => \Seffeng\LaravelWechat\Handlers\CacheHandler::class,
+        ],
+
+        /**
+         * OAUTH
+         */
+        'oauth' => [
+            /**
+             * APPID
+             */
+            'appid' => env('WECHAT_APPID', null),
+            /**
+             * APP SECRET
+             */
+            'appSecret' => env('WECHAT_APP_SECRET', null),
+            /**
+             * 处理程序
+             */
+            'handler' => \Seffeng\Wechat\Handlers\OauthHandler::class,
+            /**
+             * 缓存处理类，提供 get($key) 和 set($key, $value, $ttl) 方法
+             */
+            'cacheHandler' => \Seffeng\LaravelWechat\Handlers\CacheHandler::class,
         ]
     ]
 ];
