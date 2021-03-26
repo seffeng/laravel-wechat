@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Seffeng\Wechat\Handlers\JssdkHandler getSignPackage(string $url)
  * @method static \Seffeng\Wechat\Handlers\OauthHandler jscode2session(string $jscode)
  * @method static \Seffeng\Wechat\Wechat decrypt(string $key, string $encryptedData, string $iv)
+ * @method static \Seffeng\Wechat\Wechat wxaUnlimitedQRCode(string $scene = '', string $page = '', int $width = 430, bool $autoColor = false, array $lineColor = ['r' => 0, 'g' => 0, 'b' => 0], bool $isHyaline = false)
  *
  * @see \Seffeng\Wechat\Wechat
  * @see \Seffeng\Wechat\Handlers\OauthHandler
