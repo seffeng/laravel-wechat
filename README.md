@@ -1,5 +1,11 @@
 # Laravel Wechat
 
+# 当前版本不好用
+
+```shell
+# 当前版本不好用
+```
+
 ### 安装
 
 ```shell
