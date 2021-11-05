@@ -17,10 +17,10 @@
     ],
     "require" : {
         "php" : ">=7.1.3",
-        "seffeng/wechat" : "^0.1|^1.0|^2.0"
+        "seffeng/wechat" : ">=0.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0|^9.0"
+        "phpunit/phpunit": ">=8.0"
     },
     "autoload" : {
         "psr-4" : {
